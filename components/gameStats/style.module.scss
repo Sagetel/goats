@@ -1,0 +1,36 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(55, 57, 86);
+  max-height: 370px;
+
+  &__list {
+    height: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+
+  }
+
+  &__game {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__result,
+  &__changing {
+    color: rgb(28, 31, 71);
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__ratio {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
