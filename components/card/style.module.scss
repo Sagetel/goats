@@ -1,0 +1,21 @@
+.card {
+  height: 300px;
+  width: 250px;
+  background-color: rgb(105, 87, 191);
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 800;
+  border: 3px solid rgb(105, 87, 191);
+  transition: all .2s ease-in;
+
+  &__selected {
+    border-color: gold;
+  }
+  &__opened {
+    background-color: aquamarine;
+  }
+}

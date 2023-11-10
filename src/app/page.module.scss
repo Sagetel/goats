@@ -1,0 +1,13 @@
+.main {
+  margin-top: 30px;
+  &__title {
+    font-size: 72px;
+    text-align: center;
+    color: #DC0277;
+  }
+
+  &__container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
