@@ -5,7 +5,7 @@ import CardGame from '@/card';
 import GameStats from '@/gameStats';
 
 function Game() {
-  const quantityCards = 6; // больше 2
+  const quantityCards = 3; // больше 2
   const [cards, setCards] = useState([{ id: 1, car: false }, { id: 2, car: false }, { id: 3, car: false }])
   const [winList, setWinList] = useState([])
   const [openedCard, setOpenedCard] = useState([])

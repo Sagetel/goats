@@ -9,7 +9,7 @@
 
   &__list {
     height: 100%;
-    max-height: 300px;
+    max-height: 260px;
     overflow-y: auto;
 
   }
@@ -23,14 +23,31 @@
 
   &__result,
   &__changing {
-    color: rgb(28, 31, 71);
     font-size: 18px;
     font-weight: 700;
   }
+
   &__ratio {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+
+  &__point {
+    color: azure;
+
+    span {
+      color: rgb(152, 159, 159);
+
+    }
+  }
+
+  &__win {
+    color: rgb(48, 231, 170);
+  }
+
+  &__lose {
+    color: rgb(235, 21, 25)
   }
 }

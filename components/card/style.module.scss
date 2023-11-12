@@ -16,7 +16,7 @@
   width: 250px;
   font-weight: 800;
   border: 3px solid rgb(105, 87, 191);
-  transition: (all .2s ease-in), (transform .3s ease-in);
+  transition: (all .2s ease-in), (transform .2s ease-in);
   @include card;
 
   &__selected {
@@ -51,10 +51,12 @@
     background-color: aquamarine;
     transform: rotateY(180deg);
   }
-  &__opened &__back{
+
+  &__opened &__back {
     z-index: 1;
   }
-  &__opened &__face{
+
+  &__opened &__face {
     z-index: -1;
   }
 }
